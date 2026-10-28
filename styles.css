@@ -1,0 +1,26 @@
+:root { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #203528; background: #f5f8f3; }
+body { margin: 0; background: #f5f8f3; }
+.app-nav { background: #176b3a; box-shadow: 0 3px 14px #173e2918; }
+.app-nav .nav-link { color: #eff9f0; }
+.app-nav .nav-link.active { color: #ffd56a; font-weight: 700; }
+.hero { color: white; background: linear-gradient(115deg, #155d32, #2f8c4b); }
+.hero .lead { max-width: 640px; color: #e6f4e8; }
+.eyebrow { color: #ffd66d; font-weight: 800; font-size: .78rem; letter-spacing: .12em; }
+.feature-card, .panel, .auth-card { background: white; border: 1px solid #e2ebdf; border-radius: 16px; padding: 24px; box-shadow: 0 8px 26px #193e2510; }
+.feature-icon { font-size: 2rem; margin-bottom: 14px; }
+.feature-card h3 { font-size: 1.15rem; font-weight: 750; }
+.feature-card p { color: #657366; margin-bottom: 0; }
+.auth-card { max-width: 480px; }
+.auth-card h2 { font-weight: 800; }
+.role-pill { background: #e0f3e5; color: #176b3a; padding: 8px 14px; border-radius: 30px; font-weight: 700; text-transform: capitalize; }
+.stat-card { background: white; border: 1px solid #e2ebdf; border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 4px; }
+.stat-card strong { font-size: 2rem; color: #176b3a; }
+.stat-card span { color: #68776a; }
+.panel h2 { font-weight: 800; }
+.list-row { display: flex; align-items: center; gap: 10px; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #edf1eb; flex-wrap: wrap; }
+.list-row span { color: #6b796d; font-size: .9rem; }
+.weather-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #edf1eb; gap: 12px; }
+.weather-row small { display: block; color: #6b796d; }
+.app-footer { margin-top: 40px; background: #143f26; color: white; padding: 22px 0; font-size: .9rem; }
+.app-footer span { float: right; color: #c8dfcc; }
+@media (max-width: 576px) { .app-footer span { float: none; display: block; margin-top: 5px; } .hero .display-4 { font-size: 2.5rem; } }
